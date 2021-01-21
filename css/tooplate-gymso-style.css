@@ -417,12 +417,37 @@ https://www.tooplate.com/view/2119-gymso-fitness
     background: var(--dark-color);
   }
 
+ 
   .schedule-table {
-    display: table;
+ display: block;
     border: 0;
     text-align: center;
+
+    
   }
 
+  .tableFixHead {
+        overflow-y: auto;
+        height: 300px;
+
+      }
+      .tableFixHead thead th {
+        position: sticky;
+        top: 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+      }
+      th {
+        background: #eee;
+      }
+  
   .schedule-table strong,
   .schedule-table span {
     display: block;
