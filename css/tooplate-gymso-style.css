@@ -164,7 +164,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .bordered {
-    border: 1px solid var(--primary-color);
+    border: 1.5px solid var(--primary-color);
     color: var(--primary-color);
   }
 
@@ -363,7 +363,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('../images/bg-Image.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
