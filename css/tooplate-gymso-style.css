@@ -31,7 +31,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   :root {
-    --primary-color:        #f13a11;
+    --primary-color:        #37ADDE;
+    --secondary-color:      #3ec5ff;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --about-bg-color:       #f9f9f9;
@@ -363,7 +364,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/bg-Image.jpg');
+    background-image: url('../images/machine-learning.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -563,11 +564,11 @@ width:12%;
 
   .form-control:focus {
     box-shadow: none;
-    border-color: var(--dark-color);
+    border-color: var(--primary-color);
   }
 
   button#submit-button {
-    background: var(--dark-color);
+    background: var(--primary-color);
     border-color: transparent;
     color: var(--white-color);
     cursor: pointer;
@@ -575,7 +576,7 @@ width:12%;
   }
 
   button#submit-button:hover {
-    background: var(--primary-color);
+    background: var(--secondary-color);
   }
 
   .contact h2 + p {
