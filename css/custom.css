@@ -539,6 +539,9 @@ width:12%;
     display: block;
   }
 
+  .team-info .social-icon2 li {
+    display: inline;
+  }
 
   /*---------------------------------------
      CONTACT              
@@ -719,7 +722,10 @@ width:12%;
       padding: 2rem;
     }
   }
-
+  .smallcaro
+  {
+	  width: 70%;
+  }
   @media screen and (max-width: 767px) {
 
     h1 {
