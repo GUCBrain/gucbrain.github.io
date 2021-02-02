@@ -690,7 +690,9 @@ width:12%;
   cursor: pointer;
 }
 
-
+.socialbreak {
+  display: block;
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
@@ -721,6 +723,9 @@ width:12%;
     .modal-content {
       padding: 2rem;
     }
+	.socialbreak {
+      display: none;
+	}
   }
   .smallcaro
   {
